@@ -1,3 +1,13 @@
 # zadanie1
 list_ = [56, 10, 89, 8, 34, 67, 24]
 print(list_)
+#srednia arytmetyczna
+d = sum(list_)
+for el in list_ :
+    dlugosc_listy = 0
+for el in list_ :
+    dlugosc_listy += 1
+else:
+    srednia1 = (d/dlugosc_listy)
+    print('srednia arytmetyczna:')
+    print(srednia1)

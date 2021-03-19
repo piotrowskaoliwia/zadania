@@ -1,0 +1,94 @@
+
+#Zadanie3
+list_ = [56, 10, 89, 8, 34, 67, 24]
+print(list_)
+print()
+
+#srednia arytmetyczna
+
+for el in list_ :
+    dlugosc_listy = 0
+    d = 0
+for el in list_ :
+    dlugosc_listy += 1
+    d += el
+else:
+    srednia1 = (d/dlugosc_listy)
+    print('srednia arytmetyczna:')
+    print(srednia1)
+    print()
+
+
+#srednia harmoniczna
+
+for el in list_ :
+    dlugosc_listy = 0
+    h = 0
+for el in list_ :
+    dlugosc_listy += 1
+    h += 1/el
+else:
+    srednia2 = (h/dlugosc_listy)
+    print('srednia harmoniczna:')
+    print(srednia2)
+    print()
+    
+#srednia trzech pierwszych elementów
+
+lis=list_[:3]
+for el in lis :
+    dlugosc_listy = 0
+    v = 0
+for el in lis :
+    dlugosc_listy += 1
+    v += el
+else:
+    srednia4 = (v/dlugosc_listy)
+    print('srednia arytmetyczna z 3 pierwszych elementow:')
+    print(srednia4)
+    print()
+      
+#srednia trzech ostatnich elementów
+
+lista=list_[4:]
+for el in lista :
+    dlugosc_listy = 0
+    k = 0
+for el in lista :
+    dlugosc_listy += 1
+    k += el
+else:
+    srednia5 = (k/dlugosc_listy)
+    print('srednia arytmetyczna z 3 ostatnich elementow:')
+    print(srednia5)
+    print( )
+
+# srednia harmoniczna trzech pierwszych
+    
+lis=list_[:3]
+for el in lis :
+    dlugosc_listy = 0
+    o = 0
+for el in lis :
+    dlugosc_listy += 1
+    o += 1/el
+else:
+    srednia6 = (o/dlugosc_listy)
+    print('srednia harmoniczna z 3 pierwszych elementow:')
+    print(srednia6)
+    print()
+ 
+#srednia harmoniczna z trzech ostanich 
+
+lista=list_[4:]
+for el in lista :
+    dlugosc_listy = 0
+    s = 0
+for el in lista :
+    dlugosc_listy += 1
+    s += 1/el
+else:
+    srednia7 = (s/dlugosc_listy)
+    print('srednia harmoniczna z 3 ostatnich elementow:')
+    print(srednia7)
+    print( )    
